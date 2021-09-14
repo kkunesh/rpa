@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScenarioInfo>
+  <Dependences>
+    <ActionInfo package="Robin-Imp.BaseActions.TryCatch_01" version="1.3.4" platform="net" />
+    <ActionInfo package="Robin-Imp.Excel.Open" version="1.3.7" platform="net" />
+    <ActionInfo package="Robin.Dialogs.ShowMessage-Python" version="1.5.0" platform="python" />
+    <ActionInfo package="Robin-Imp.BaseActions.ActionsGroup_01" version="1.3.1" platform="net" />
+    <ActionInfo package="Robin-Imp.Converters.GetCurrentDate" version="1.3.2" platform="net" />
+    <ActionInfo package="Robin-Imp.Converters.GetDateElement" version="1.3.3" platform="net" />
+    <ActionInfo package="Robin-Imp.Converters.DateToString" version="1.3.2" platform="net" />
+    <ActionInfo package="Robin-Imp.Text.Join" version="1.3.1" platform="net" />
+    <ActionInfo package="Robin-Imp.BaseActions.ConvertData" version="1.3.1" platform="net" />
+    <ActionInfo package="Robin-Imp.BaseActions.CalculateExpression" version="1.3.0" platform="net" />
+    <ActionInfo package="Robin-Imp.Excel.RangeClear" version="1.3.5" platform="net" />
+    <ActionInfo package="Robin.Selenium:OpenBrowser:4.3.11" version="4.3.11" platform="java" />
+    <ActionInfo package="Robin.Selenium:SendClick:4.3.7" version="4.3.7" platform="java" />
+    <ActionInfo package="Robin-Imp.Excel.GetRowsNumber" version="1.3.7" platform="net" />
+    <ActionInfo package="Robin-Imp.ExpressionOperators.Addition" version="1.3.0" platform="net" />
+    <ActionInfo package="Robin-Imp.BaseActions.LoopWhile" version="1.4.0" platform="net" />
+    <ActionInfo package="Robin-Imp.Text.ReplaceByPattern" version="1.3.0" platform="net" />
+    <ActionInfo package="Robin.Selenium:GetElementText:4.3.6" version="4.3.6" platform="java" />
+    <ActionInfo package="Robin-Imp.Converters.DateFromString" version="1.3.2" platform="net" />
+    <ActionInfo package="Robin-Imp.ExpressionOperators.Equal" version="1.3.1" platform="net" />
+    <ActionInfo package="Robin-Imp.BaseActions.TransitionIfElse_01" version="1.3.1" platform="net" />
+    <ActionInfo package="Robin-Imp.BaseActions.Assignment" version="1.3.0" platform="net" />
+    <ActionInfo package="Robin-Imp.BaseActions.LoopBreak" version="1.3.0" platform="net" />
+    <ActionInfo package="Robin-Imp.Excel.CellSetValue" version="1.3.4" platform="net" />
+    <ActionInfo package="Robin-Imp.ExpressionOperators.Subtraction" version="1.3.0" platform="net" />
+    <ActionInfo package="Robin-Imp.ExpressionOperators.Division" version="1.3.0" platform="net" />
+    <ActionInfo package="Robin-Imp.Excel.RunMacro" version="1.3.4" platform="net" />
+    <ActionInfo package="Robin-Imp.Excel.SaveAs" version="1.3.6" platform="net" />
+    <ActionInfo package="Robin-Imp.Excel.Close" version="1.3.5" platform="net" />
+    <ActionInfo package="Robin-Imp.Text.EndsWith" version="1.3.0" platform="net" />
+    <ActionInfo package="Robin-Imp.Email.OpenEmail" version="1.3.3" platform="net" />
+    <ActionInfo package="Robin-Imp.Email.SendMessage" version="1.3.4" platform="net" />
+    <ActionInfo package="Robin.Type.Converter.String" version="2.3.1" platform="net" />
+    <ActionInfo package="ru.robin.type.converter:string-converter:2.2.3" version="2.2.3" platform="java" />
+    <ActionInfo package="Robin.Type.Converter.String:3.2.0" version="1.0.0" platform="python" />
+    <ActionInfo package="Robin.Type.Converter.DateTime" version="2.3.0" platform="net" />
+    <ActionInfo package="ru.robin.type.converter:datetime-converter:2.2.3" version="2.2.3" platform="java" />
+    <ActionInfo package="Robin.Type.Converter.DateTime:3.2.1" version="1.0.0" platform="python" />
+    <ActionInfo package="Robin.Type.Converter.FolderPath" version="2.3.1" platform="net" />
+    <ActionInfo package="ru.robin.type.converter:folder-path-converter:2.2.2" version="2.2.2" platform="java" />
+    <ActionInfo package="Robin.Type.Converter.FolderPath:3.2.0" version="1.0.0" platform="python" />
+    <ActionInfo package="Robin.Type.Converter.Boolean" version="2.3.0" platform="net" />
+    <ActionInfo package="ru.robin.type.converter:boolean-converter:2.2.2" version="2.2.2" platform="java" />
+    <ActionInfo package="Robin.Type.Converter.Boolean:3.2.0" version="1.0.0" platform="python" />
+    <ActionInfo package="Robin.Type.Converter.Numeric" version="2.3.0" platform="net" />
+    <ActionInfo package="ru.robin.type.converter:numeric-converter:2.2.4" version="2.2.4" platform="java" />
+    <ActionInfo package="Robin.Type.Converter.Numeric:3.2.1" version="1.0.0" platform="python" />
+    <ActionInfo package="Robin.Type.Converter.FilePath" version="2.3.1" platform="net" />
+    <ActionInfo package="ru.robin.type.converter:file-path-converter:2.2.2" version="2.2.2" platform="java" />
+    <ActionInfo package="Robin.Type.Converter.FilePath:3.2.0" version="1.0.0" platform="python" />
+    <ActionInfo package="Robin.Type.Converter.WebElement" version="2.3.3" platform="net" />
+    <ActionInfo package="ru.robin.type.converter:web-element-converter:2.2.5" version="2.2.5" platform="java" />
+    <ActionInfo package="Robin.Type.Converter.WebElement:3.2.1" version="1.0.0" platform="python" />
+    <ActionInfo package="Robin.Type.Converter.InternalSequenceId" version="2.3.0" platform="net" />
+    <ActionInfo package="Robin.Type.Converter.InternalSequenceId:3.2.0" version="1.0.0" platform="python" />
+    <ActionInfo package="Robin.Type.Converter.Collection" version="2.3.5" platform="net" />
+    <ActionInfo package="ru.robin.type.converter:collection-converter:2.2.4" version="2.2.4" platform="java" />
+    <ActionInfo package="Robin.Type.Converter.Collection:3.2.2" version="1.0.0" platform="python" />
+    <ActionInfo package="Robin.Type.Converter.Object" version="2.3.2" platform="net" />
+    <ActionInfo package="ru.robin.type.converter:object-converter:2.2.2" version="2.2.2" platform="java" />
+    <ActionInfo package="Robin.Type.Converter.Object:3.2.2" version="1.0.0" platform="python" />
+    <ActionInfo package="Robin.Type.Converter.Exception" version="2.3.5" platform="net" />
+    <ActionInfo package="ru.robin.type.converter:exception-converter:2.2.6" version="2.2.6" platform="java" />
+    <ActionInfo package="Robin.Type.Converter.Exception:3.2.2" version="1.0.0" platform="python" />
+    <ActionInfo package="Robin.Type.Converter.HotKeys" version="2.3.2" platform="net" />
+    <ActionInfo package="ru.robin.type.converter:hot-keys-converter:2.2.1" version="2.2.1" platform="java" />
+    <ActionInfo package="Robin.Type.Converter.HotKeys:3.2.0" version="1.0.0" platform="python" />
+    <ActionInfo package="Robin.Type.Converter.Password" version="2.3.2" platform="net" />
+    <ActionInfo package="ru.robin.type.converter:password-converter:2.2.2" version="2.2.2" platform="java" />
+    <ActionInfo package="Robin.Type.Converter.Password:3.2.0" version="1.0.0" platform="python" />
+    <ActionInfo package="Robin.Type.Converter.Dictionary" version="2.3.5" platform="net" />
+    <ActionInfo package="ru.robin.type.converter:dictionary-converter:2.2.4" version="2.2.4" platform="java" />
+    <ActionInfo package="Robin.Type.Converter.Dictionary:3.2.1" version="1.0.0" platform="python" />
+    <ActionInfo package="Robin.Type.Converter.Image" version="2.3.1" platform="net" />
+    <ActionInfo package="ru.robin.type.converter:image-converter:2.2.2" version="2.2.2" platform="java" />
+    <ActionInfo package="Robin.Type.Converter.Image:3.2.0" version="1.0.0" platform="python" />
+    <ActionInfo package="Robin.Type.Converter.LocationPoint" version="2.3.0" platform="net" />
+    <ActionInfo package="ru.robin.type.converter:location-point-converter:2.2.2" version="2.2.2" platform="java" />
+    <ActionInfo package="Robin.Type.Converter.LocationPoint:3.2.0" version="1.0.0" platform="python" />
+    <ActionInfo package="Robin.Type.Converter.RectangleLocation" version="2.3.0" platform="net" />
+    <ActionInfo package="ru.robin.type.converter:rectangle-location-converter:2.2.1" version="2.2.1" platform="java" />
+    <ActionInfo package="Robin.Type.Converter.RectangleLocation:3.2.0" version="1.0.0" platform="python" />
+    <ActionInfo package="Robin-Imp.AuxiliaryActions.ExecuteScenario" version="1.3.0" platform="net" />
+    <ActionInfo package="Robin.AuxiliaryActions:ExecuteScenario:4.3.2" version="4.3.2" platform="java" />
+    <ActionInfo package="Robin.AuxiliaryActions.ExecuteScenario-Python" version="1.5.1" platform="python" />
+  </Dependences>
+  <ScenarioParts>
+    <ScenarioPart requireUiThread="true" scenarioSchemaVersion="5.2.1" scenarioPartFile="Курс валют.1.robin-scenario" isFirstPart="false" platform="python">
+      <RequiredInterfaces />
+    </ScenarioPart>
+    <ScenarioPart requireUiThread="true" scenarioSchemaVersion="5.2.1" scenarioPartFile="Курс валют.2.robin-scenario" isFirstPart="false" platform="java">
+      <RequiredInterfaces />
+    </ScenarioPart>
+    <ScenarioPart requireUiThread="true" scenarioSchemaVersion="5.2.1" scenarioPartFile="Курс валют.3.robin-scenario" isFirstPart="false" platform="java">
+      <RequiredInterfaces />
+    </ScenarioPart>
+    <ScenarioPart requireUiThread="true" scenarioSchemaVersion="5.2.1" scenarioPartFile="Курс валют.4.robin-scenario" isFirstPart="false" platform="java">
+      <RequiredInterfaces />
+    </ScenarioPart>
+    <ScenarioPart requireUiThread="true" scenarioSchemaVersion="5.2.1" scenarioPartFile="Курс валют.5.robin-scenario" isFirstPart="false" platform="java">
+      <RequiredInterfaces />
+    </ScenarioPart>
+    <ScenarioPart requireUiThread="true" scenarioSchemaVersion="5.2.1" scenarioPartFile="Курс валют.6.robin-scenario" isFirstPart="false" platform="java">
+      <RequiredInterfaces />
+    </ScenarioPart>
+    <ScenarioPart requireUiThread="true" scenarioSchemaVersion="5.2.1" scenarioPartFile="Курс валют.7.robin-scenario" isFirstPart="false" platform="java">
+      <RequiredInterfaces />
+    </ScenarioPart>
+    <ScenarioPart requireUiThread="true" scenarioSchemaVersion="5.2.1" scenarioPartFile="Курс валют.8.robin-scenario" isFirstPart="false" platform="java">
+      <RequiredInterfaces />
+    </ScenarioPart>
+    <ScenarioPart requireUiThread="true" scenarioSchemaVersion="5.2.1" scenarioPartFile="Курс валют.9.robin-scenario" isFirstPart="false" platform="java">
+      <RequiredInterfaces />
+    </ScenarioPart>
+    <ScenarioPart requireUiThread="true" scenarioSchemaVersion="5.2.1" scenarioPartFile="Курс валют.0.robin-scenario" isFirstPart="true" platform="net">
+      <RequiredInterfaces>
+        <RequiredInterface>Robin.Engine.Services.Interfaces.IActionLogger</RequiredInterface>
+        <RequiredInterface>Robin.Engine.Services.Interfaces.IBranchService</RequiredInterface>
+        <RequiredInterface>Robin.Engine.Services.Interfaces.IResourcesFolderService</RequiredInterface>
+        <RequiredInterface>Robin.Engine.Services.Interfaces.IEngineSwitchService</RequiredInterface>
+        <RequiredInterface>Robin.Engine.Services.Interfaces.IConverterService</RequiredInterface>
+      </RequiredInterfaces>
+    </ScenarioPart>
+  </ScenarioParts>
+</ScenarioInfo>
